@@ -122,6 +122,15 @@ uv venv
 source .venv/bin/activate
 uv pip install -e .
 
+# Add a file .vscode/settings.json to set up the Python interpreter
+# include FLORIS and FLASC in the Python path
+mkdir -p .vscode
+cat > .vscode/settings.json << EOL
+{
+    "python.analysis.extraPaths": ["modules/floris", "modules/flasc"]
+}
+EOL
+
 echo "Setup complete! Project structure created at $STUB"
 echo "The virtual environment has been created and dependencies installed."
 echo "To activate the environment in the future, run: source .venv/bin/activate"
