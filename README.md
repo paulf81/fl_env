@@ -1,16 +1,15 @@
 # fl_env
-
 Automatic creation of a FLORIS/FLASC env via shell script
 
 ## Introduction
 
-A common task in my work flow is to create a custom directory with FLORIS/FLASC locally pip installed and a new repo initialized, whenever embarking on a new project analysis.
+A common task in my workflow is to create a custom directory with FLORIS/FLASC locally pip installed and a new repo initialized, whenever embarking on a new project analysis.
 
 The purpose of this repo is to share some scripts I'm working to automate this process.
 
 ## Usage
 
-The scripts should all be runnable (unix/linux/mac) from the command line.  Note some parameters appear at the top of the script.  For now I have uv version but could later and conda or mamba etc.
+The scripts should all be runnable (unix/linux/mac) from the command line. Note some parameters appear at the top of the script. For now, I have uv version but could later add conda or mamba etc.
 
 ## setup-script-uv.sh
 
@@ -30,5 +29,13 @@ The `setup-script-uv.sh` script automates the setup of a development environment
 
 The resulting project structure looks like this:
 
-
-floris_loads/ ├── .gitignore ├── pyproject.toml ├── setup-script-uv.sh ├── init.py └── modules/ ├── floris/ └── flasc/
+```
+floris_loads/
+├── .gitignore
+├── pyproject.toml
+├── setup-script-uv.sh
+├── init.py
+└── modules/
+    ├── floris/
+    └── flasc/
+```
