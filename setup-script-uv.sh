@@ -1,6 +1,6 @@
 #!/bin/bash
 ## Parameters
-STUB="floris_loads"
+STUB="STUB_NAME_HERE"
 FLORIS_BRANCH="develop"
 FLASC_BRANCH="develop"
 FLORIS_FLASC_FOLDER="modules"

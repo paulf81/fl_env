@@ -30,7 +30,12 @@ The `setup-script-uv.sh` script automates the setup of a development environment
 The resulting project structure looks like this:
 
 ```
-floris_loads/
+<!-- 
+This section provides information about the directory structure and file paths used in the project. 
+The placeholder `$STUB` represents a specific directory or file within the project. 
+In this example, `project_stub` is used as the value of `$STUB`.
+-->
+project_stub/
 ├── .gitignore
 ├── pyproject.toml
 ├── setup-script-uv.sh
