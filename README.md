@@ -25,7 +25,8 @@ The `setup-script-uv.sh` script automates the setup of a development environment
 8. **UV Initialization**: Initializes the UV environment with an explicit virtual environment path.
 9. **pyproject.toml Creation**: Creates a `pyproject.toml` file with local dependencies and the virtual environment path.
 10. **Environment Setup**: Sets up the virtual environment, installs dependencies, and activates the environment.
-11. **Open VSCode**: Opens the project in Visual Studio Code.
+11. **VS Code Setup**: Add a vc code settings json and add floris and flasc to the python path.
+12. **Open VSCode**: Opens the project in Visual Studio Code.
 
 The resulting project structure looks like this:
 
